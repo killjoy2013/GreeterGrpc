@@ -33,7 +33,7 @@ namespace GrpcGreeter
                     listenOptions =>
                     {
                        
-                            listenOptions.UseHttps("certs/mylocal3.cer");
+                            listenOptions.UseHttps("certs/local1.cer");
                             listenOptions.Protocols = HttpProtocols.Http1AndHttp2;                            
                         
                     });
